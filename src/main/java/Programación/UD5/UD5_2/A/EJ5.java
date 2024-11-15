@@ -1,4 +1,4 @@
-package Programación.UD5.UD5_2;
+package Programación.UD5.UD5_2.A;
 
 import java.util.Scanner;
 

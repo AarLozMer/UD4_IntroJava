@@ -1,4 +1,4 @@
-package Programación.UD5.UD5_2;
+package Programación.UD5.UD5_2.A;
 
 public class EJ3 {
     public static void main(String[] args) {

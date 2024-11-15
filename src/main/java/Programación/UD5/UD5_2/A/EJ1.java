@@ -1,6 +1,4 @@
-package Programación.UD5.UD5_2;
-
-import java.text.DecimalFormat;
+package Programación.UD5.UD5_2.A;
 
 public class EJ1 {
     public static void main(String[] args) {
