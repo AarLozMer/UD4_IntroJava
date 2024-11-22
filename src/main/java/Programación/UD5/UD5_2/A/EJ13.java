@@ -16,7 +16,7 @@ public class EJ13 {
         while (num_pensado != num) {
             num_pensado = (num_menor + num_mayor)/2;
             if (num_pensado != num) {
-                System.out.print("¿Tu número es: " + num_pensado + "?");
+                System.out.print("¿Tu número es: " + num_pensado + "? ");
                 respuesta = sc.next();
 
                 if (respuesta.equalsIgnoreCase("Mayor")) {
