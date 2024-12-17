@@ -1,4 +1,4 @@
-package Programación.UD6.UD6_1;
+package Programación.UD6.UD6_1.A;
 
 import java.util.Arrays;
 import java.util.Scanner;
