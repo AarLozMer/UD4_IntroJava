@@ -8,19 +8,14 @@ public class EJ8 {
         double n[] = new double[100];
 
         int igual = 0;
-        double max = 1;
-        double min = 0;
+        System.out.println("Introduzca un número entre el 0 y el 1: ");
+        double r = sc.nextDouble();
 
         for (int i = 0; i < n.length; i++) {
-            n[i] = (double) (Math.random() * (max - min)) + min;
-        }
-        System.out.print("Introduce un valor real: ");
-        double v = sc.nextDouble();
-        for (int i = 0; i < n.length; i++) {
-            if (n[i] == v) {
-                igual += 1;
+            n[i] = (double) (Math.random()* 1.0) +0;
+            if (n[i] > r) {
+                igual++;
             }
-
 
         }
         System.out.print("Hay " + igual + " valores iguales al introducido ");
