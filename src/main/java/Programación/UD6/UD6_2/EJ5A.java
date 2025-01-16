@@ -35,6 +35,11 @@ public class EJ5A {
                     break;
                 case 3:
                     System.out.print("Introduce (1) para buscar por nombre, o (2) para buscar por telefono ");
+                    opcion = sc.nextInt();
+                        case 1:
+                            System.out.println("Introduce el nombre: ");
+
+
 
 
 
